@@ -25,6 +25,7 @@ const StyledBlock = styled.div`
   padding: 2rem;
   width: 2rem;
   height: 2rem;
+  border-radius: 5px;
   background-color: var(--color-brand-900);
   /* filter: blur(0.1rem); */
 `;
