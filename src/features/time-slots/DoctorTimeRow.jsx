@@ -2,7 +2,7 @@ import { useDeleteTimeSlot } from "./useDeteleTimeSlot";
 
 import styled from "styled-components";
 import Button from "../../ui/Button";
-import Modal from "../../ui/modal";
+import Modal from "../../ui/Modal";
 import { MdDeleteForever } from "react-icons/md";
 import ConfirmDelete from "../../ui/ComfirmDelete";
 import Table from "../../ui/Table";

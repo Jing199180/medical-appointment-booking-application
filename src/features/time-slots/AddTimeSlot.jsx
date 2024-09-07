@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import CreateTimeSlotForm from "./CreateTimeSlotForm";
-import Modal from "../../ui/modal";
+import Modal from "../../ui/Modal";
 import Button from "../../ui/Button";
 
 const StyledContainer = styled.div`

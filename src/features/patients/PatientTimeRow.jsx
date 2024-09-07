@@ -1,7 +1,7 @@
 import BookTimeForm from "./BookTimeForm";
 
 import styled from "styled-components";
-import Modal from "../../ui/modal";
+import Modal from "../../ui/Modal";
 import Button from "../../ui/Button";
 import Table from "../../ui/Table";
 

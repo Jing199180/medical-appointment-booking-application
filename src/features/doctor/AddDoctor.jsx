@@ -2,7 +2,7 @@ import CreateDoctorForm from "./CreateDoctorForm";
 
 import styled from "styled-components";
 import Button from "../../ui/Button";
-import Modal from "../../ui/modal";
+import Modal from "../../ui/Modal";
 
 const StyledContainer = styled.div`
   display: flex;
@@ -21,14 +21,6 @@ function AddDoctor() {
         <Modal.Window name="doctor-form">
           <CreateDoctorForm />
         </Modal.Window>
-
-        {/* <Modal.Open opens="table">
-          <Button>Show table</Button>
-        </Modal.Open>
-
-        <Modal.Window name="table">
-          <DoctorTable />
-        </Modal.Window> */}
       </Modal>
     </StyledContainer>
   );
