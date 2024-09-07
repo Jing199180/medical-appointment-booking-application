@@ -11,6 +11,7 @@ export function useLogin() {
     onSuccess: () => {
       // console.log(user);
       navigate("/doctor-dashboard", { replace: true });
+      navigate(0);
     },
     onError: () => {
       // console.log(err.message);

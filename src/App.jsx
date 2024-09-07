@@ -11,7 +11,6 @@ import PageNotFound from "./pages/PageNotFound";
 import Users from "./pages/Users";
 import DoctorDashboard from "./pages/DoctorDashboard";
 import PatientDashboard from "./pages/PatientDashboard";
-import Landing from "./pages/Landing";
 
 import GlobalStyles from "./styles/GlobalStyles";
 import ProtectedRoute from "./ui/ProtectedRoute";
@@ -51,7 +50,6 @@ function App() {
           <Route element={<PatientAppLayout />}>
             <Route path="patient-dashboard" element={<PatientDashboard />} />
           </Route>
-          <Route path="landing" element={<Landing />} />
           <Route path="login" element={<Login />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
