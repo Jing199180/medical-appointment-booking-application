@@ -8,7 +8,7 @@ import { FaUserEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 import { useCreateDoctor } from "./useCreateDoctor";
 
-import Modal from "../../ui/modal";
+import Modal from "../../ui/Modal";
 import ConfirmDelete from "../../ui/ComfirmDelete";
 import Table from "../../ui/Table";
 import Menus from "../../ui/Menus";

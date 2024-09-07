@@ -7,7 +7,7 @@ import {
 import styled from "styled-components";
 import toast from "react-hot-toast";
 import ConfirmDelete from "../../ui/ComfirmDelete";
-import Modal from "../../ui/modal";
+import Modal from "../../ui/Modal";
 import Table from "../../ui/Table";
 import Tag from "../../ui/Tag";
 import Menus from "../../ui/Menus";

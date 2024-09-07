@@ -9,7 +9,6 @@ import { FaUserEdit } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 import { useCreateDoctor } from "./useCreateDoctor";
 import Button from "../../ui/Button";
-import Row from "../../ui/Row";
 
 const TableRow = styled.div`
   display: grid;
