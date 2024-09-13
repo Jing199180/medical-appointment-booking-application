@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 import DoctorHeader from "./DoctorHeader";
 import DoctorSidebar from "./DoctorSidebar";
+import DoctorFooter from "./DoctorFooter";
 
 const StyledAppLayout = styled.div`
   display: grid;
@@ -34,6 +35,7 @@ function DoctorAppLayout() {
           <Outlet />
         </Container>
       </Main>
+      <DoctorFooter />
     </StyledAppLayout>
   );
 }

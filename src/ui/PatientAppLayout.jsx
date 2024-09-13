@@ -4,6 +4,7 @@ import PatientHeader from "./PatientHeader";
 import PatientSidebar from "./PatientSidebar";
 
 import styled from "styled-components";
+import PatientFooter from "./PatientFooter";
 
 const StyledAppLayout = styled.div`
   display: grid;
@@ -36,6 +37,7 @@ function PatientAppLayout() {
           <Outlet />
         </Container>
       </Main>
+      <PatientFooter />
     </StyledAppLayout>
   );
 }

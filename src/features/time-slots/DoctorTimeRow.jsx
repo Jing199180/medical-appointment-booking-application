@@ -12,11 +12,9 @@ const Date = styled.div`
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--color-grey-600);
-  font-family: "Sono";
 `;
 
 const Time = styled.div`
-  font-family: "Sono";
   font-weight: 600;
 `;
 

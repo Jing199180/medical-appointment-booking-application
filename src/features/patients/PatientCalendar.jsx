@@ -57,6 +57,7 @@ const StyledCalendar = styled.div`
   }
 
   //lables style
+
   .react-calendar__month-view__weekdays {
     text-align: center;
   }
@@ -77,7 +78,7 @@ const StyledCalendar = styled.div`
     border: 0;
     border-radius: 3px;
     color: white;
-    padding: 5px 0;
+    padding: 1rem 0;
 
     &:hover {
       background-color: var(--color-brand-700);

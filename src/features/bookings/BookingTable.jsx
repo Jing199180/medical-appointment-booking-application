@@ -5,6 +5,7 @@ import BookingRow from "./BookingRow";
 import Table from "../../ui/Table";
 import Spinner from "../../ui/Spinner";
 import Menus from "../../ui/Menus";
+import Heading from "../../ui/Heading";
 
 function BookingTable() {
   const { bookings, isLoading } = useBookings();
@@ -54,7 +55,7 @@ function BookingTable() {
 
   return (
     <Menus>
-      <Table columns="1.2fr 1.2fr 1.5fr 1fr 2fr 1fr 0.2fr">
+      <Table columns="1fr 1.2fr 1.5fr 1fr 2fr 1.5fr 0.2fr">
         <Table.Header>
           <div>Full Name</div>
           <div>Date</div>
@@ -65,9 +66,13 @@ function BookingTable() {
           <div>status</div>
         </Table.Header>
         <Table.Body>
-          {filteredBookings.map((booking) => (
-            <BookingRow booking={booking} key={booking.id} />
-          ))}
+          {filteredBookings.length > 0 ? (
+            filteredBookings.map((booking) => (
+              <BookingRow booking={booking} key={booking.id} />
+            ))
+          ) : (
+            <Heading as="h2">No Booking records</Heading>
+          )}
         </Table.Body>
       </Table>
     </Menus>

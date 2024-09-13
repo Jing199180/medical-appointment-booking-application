@@ -6,6 +6,7 @@ import Button from "../ui/Button";
 import { useNavigate } from "react-router-dom";
 import FormRowVertical from "../ui/FormRowVertical";
 import Form from "../ui/Form";
+import LoginFooter from "../ui/LoginFooter";
 
 const LoginLayout = styled.main`
   min-height: 100vh;
@@ -34,6 +35,7 @@ function Login() {
           </Button>
         </FormRowVertical>
       </Form>
+      <LoginFooter />
     </LoginLayout>
   );
 }

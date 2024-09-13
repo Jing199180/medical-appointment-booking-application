@@ -56,7 +56,7 @@ const GlobalStyles = createGlobalStyle`
   --image-opacity: 100%;
 }
 
-*,
+*, 
 *::before,
 *::after {
   box-sizing: border-box;
@@ -71,8 +71,28 @@ html {
   font-size: 62.5%;
 }
 
+abbr[title] {
+  text-decoration: none !important;
+}
+
+//1456px
+@media (max-width: 91rem) {
+
+  html {font-size: 56.25% !important;}
+}
+
+
+//992px
+@media (max-width: 80rem) 
+ {
+    html {font-size: 50% !important;}
+  }
+
+
+
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", "Noto Sans Traditional Chinese", sans-serif;
   color: var(--color-grey-700);
 
   transition: color 0.3s, background-color 0.3s;
