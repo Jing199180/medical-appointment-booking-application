@@ -30,7 +30,7 @@ const StyledFormRowVertical = styled.div`
     padding-top: 2rem;
   }
 
-  @media (max-width: 31rem) {
+  @media (max-width: 45rem) {
     grid-template-columns: 1fr;
   }
 `;

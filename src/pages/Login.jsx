@@ -9,9 +9,8 @@ import Form from "../ui/Form";
 import LoginFooter from "../ui/LoginFooter";
 
 const LoginLayout = styled.main`
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   min-height: 100vh;
-  min-width: 100vh;
   display: grid;
   grid-template-columns: 64rem;
   align-content: center;
@@ -20,6 +19,14 @@ const LoginLayout = styled.main`
   background-color: var(--color-grey-50);
   /* background-color: red; */
   /* text-align: center; */
+
+  @media (max-width: 36rem) {
+    padding: 5rem;
+    /* grid-template-columns: 32rem; */
+    gap: 2.4rem;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 function Login() {

@@ -28,6 +28,10 @@ const Heading = styled.h1`
     css`
       font-size: 2rem;
       font-weight: 400;
+
+      @media (max-width: 45rem) {
+        text-align: center;
+      }
     `}
 `;
 
