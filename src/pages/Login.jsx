@@ -9,12 +9,13 @@ import Form from "../ui/Form";
 import LoginFooter from "../ui/LoginFooter";
 
 const LoginLayout = styled.main`
+  padding-top: 5rem;
   min-height: 100vh;
+  min-width: 100vh;
   display: grid;
   grid-template-columns: 64rem;
   align-content: center;
   justify-content: center;
-  min-width: 80rem;
   gap: 3.2rem;
   background-color: var(--color-grey-50);
   /* background-color: red; */
