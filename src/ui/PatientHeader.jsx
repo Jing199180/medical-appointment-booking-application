@@ -10,6 +10,15 @@ const StyledHeader = styled.header`
   gap: 2.4rem;
   align-items: center;
   justify-content: flex-end;
+
+  @media (max-width: 60rem) {
+    padding: 1.2rem 2.4rem;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 45rem) {
+    justify-content: flex-start;
+  }
 `;
 
 function PatientHeader() {

@@ -29,6 +29,10 @@ const StyledFormRowVertical = styled.div`
     /* gap: 1.2rem; */
     padding-top: 2rem;
   }
+
+  @media (max-width: 31rem) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Label = styled.label`

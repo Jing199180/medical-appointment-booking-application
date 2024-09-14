@@ -237,7 +237,7 @@ function PatientCalendar() {
       </StyledCalendar>
 
       <Row type="horizontal">
-        <Heading>可預約的時間:</Heading>
+        <Heading as="h1">可預約的時間:</Heading>
         <PatientTimeTableOpertations />
       </Row>
       <PatientTimeTable availableDates={availableDates} />

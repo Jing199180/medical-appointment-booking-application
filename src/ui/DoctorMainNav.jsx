@@ -9,6 +9,10 @@ const NavList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+
+  @media (max-width: 60rem) {
+    flex-direction: row;
+  }
 `;
 
 const StyledNavLink = styled(NavLink)`

@@ -82,11 +82,11 @@ abbr[title] {
 }
 
 
-//992px
-@media (max-width: 80rem) 
- {
-    html {font-size: 50% !important;}
-  }
+//1152px
+@media (max-width: 72rem) {
+//8px / 16px = 
+html {font-size: 50% !important;}
+}
 
 
 
