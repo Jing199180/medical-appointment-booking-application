@@ -31,6 +31,15 @@ const StyledSidebar = styled.aside`
     /* width: 80rem; */
     /* align-items: center; */
   }
+
+  @media (max-width: 31rem) {
+    /* padding: 1.2rem 2.4rem; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 80rem; */
+    /* align-items: center; */
+  }
 `;
 
 function DoctorSidebar() {

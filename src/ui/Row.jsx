@@ -11,6 +11,7 @@ const Row = styled.div`
 
       @media (max-width: 31rem) {
         flex-direction: column;
+        align-items: start;
       }
     `}
 

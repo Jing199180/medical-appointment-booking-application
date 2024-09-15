@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const StyledLogo = styled.div`
+  /* height: 50%; */
   text-align: center;
   align-items: center;
 `;

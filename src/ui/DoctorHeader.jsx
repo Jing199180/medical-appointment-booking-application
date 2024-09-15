@@ -17,7 +17,15 @@ const StyledHeader = styled.header`
   }
 
   @media (max-width: 45rem) {
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 1.2rem; */
+  }
+
+  @media (max-width: 31rem) {
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 1.2rem; */
   }
 `;
 

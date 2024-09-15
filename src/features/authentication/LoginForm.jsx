@@ -10,13 +10,20 @@ import FormRowVertical from "../../ui/FormRowVertical";
 function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
   const { login, isLoading } = useLogin();
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (!email || !password) return;
+    // 檢查是否有空的欄位
+    if (!email || !password) {
+      setError("Email and password are required.");
+      return;
+    }
 
+    // 如果通過檢查，清除錯誤訊息並進行登入
+    setError("");
     login(
       { email, password },
       {
@@ -40,8 +47,8 @@ function LoginForm() {
           onChange={(e) => setEmail(e.target.value)}
           disabled={isLoading}
         />
+        {error && !email && <p style={{ color: "red" }}>Email is required.</p>}
       </FormRowVertical>
-
       <FormRowVertical label="Password">
         <Input
           type="password"
@@ -51,6 +58,9 @@ function LoginForm() {
           onChange={(e) => setPassword(e.target.value)}
           disabled={isLoading}
         />
+        {error && !password && (
+          <p style={{ color: "red" }}>Password is required.</p>
+        )}
       </FormRowVertical>
 
       <FormRowVertical>

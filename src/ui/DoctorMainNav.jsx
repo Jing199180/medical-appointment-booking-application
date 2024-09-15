@@ -15,7 +15,8 @@ const NavList = styled.ul`
   }
 
   @media (max-width: 31rem) {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 `;
 
