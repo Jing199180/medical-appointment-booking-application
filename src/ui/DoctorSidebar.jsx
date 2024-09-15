@@ -24,6 +24,13 @@ const StyledSidebar = styled.aside`
     grid-row: 1 / 2;
     /* align-items: center; */
   }
+
+  @media (max-width: 45rem) {
+    padding: 1.2rem 2.4rem;
+    /* flex-direction: row; */
+    width: 80rem;
+    /* align-items: center; */
+  }
 `;
 
 function DoctorSidebar() {
