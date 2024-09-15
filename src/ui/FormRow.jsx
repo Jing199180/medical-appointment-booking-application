@@ -27,10 +27,10 @@ const StyledFormRow = styled.div`
     gap: 1.2rem;
   }
 
-  @media (max-width: 31rem) {
+  /* @media (max-width: 31rem) {
     display: flex;
     flex-direction: column;
-  }
+  } */
 `;
 
 const Label = styled.label`

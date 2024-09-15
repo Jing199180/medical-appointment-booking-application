@@ -14,13 +14,8 @@ const StyledAppLayout = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (max-width: 45rem) {
-    grid-template-columns: 85rem;
-    width: 100vh;
-  }
-
   @media (max-width: 31rem) {
-    grid-template-columns: 80rem;
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -37,10 +32,6 @@ const Main = styled.main`
     padding: 1.6rem 2.4rem 3.2rem;
     grid-row: 2 / 3;
     grid-column: 1 / -1;
-  }
-
-  @media (max-width: 45rem) {
-    width: 100%;
   }
 `;
 

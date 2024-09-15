@@ -28,7 +28,7 @@ const StyledSidebar = styled.aside`
   @media (max-width: 45rem) {
     padding: 1.2rem 2.4rem;
     /* flex-direction: row; */
-    width: 80rem;
+    /* width: 80rem; */
     /* align-items: center; */
   }
 `;
