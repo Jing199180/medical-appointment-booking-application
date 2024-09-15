@@ -13,6 +13,10 @@ const NavList = styled.ul`
   @media (max-width: 60rem) {
     flex-direction: row;
   }
+
+  @media (max-width: 31rem) {
+    flex-direction: column;
+  }
 `;
 
 const StyledNavLink = styled(NavLink)`

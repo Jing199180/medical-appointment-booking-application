@@ -18,7 +18,7 @@ const Form = styled.form`
       width: 80rem;
 
       @media (max-width: 45rem) {
-        width: 50rem;
+        width: 40rem;
       }
     `}
     

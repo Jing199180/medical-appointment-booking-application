@@ -69,6 +69,7 @@ const GlobalStyles = createGlobalStyle`
 
 html {
   font-size: 62.5%;
+  width: 100%;
 }
 
 abbr[title] {
