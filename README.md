@@ -30,7 +30,7 @@
 
 ## 安裝與執行
 ### 1. 克隆專案到本地:
-git clone https://github.com/你的帳號/徒手物理治療線上預約系統.git
+git clone https://github.com/Jing199180/medical-appointment-booking-application.git
 
 ### 2. 進入專案目錄並安裝依賴項
 cd 徒手物理治療線上預約系統
